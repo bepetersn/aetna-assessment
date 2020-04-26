@@ -26,15 +26,13 @@ function parseArgs(rawArgs) {
 if (require.main === module) {
   (() => {
     let rawArgs = process.argv.slice(2)
-    console.log(rawArgs)
     let args = parseArgs(rawArgs)
-    console.log(args)
     if(args.length < 2) {
       console.log("Please pass 2 sorted arrays as arguments")
       process.exit(1)
     } else {
       let result = mergeSortedArrays(...args)
-      console.log(result)
+      console.log(`[${result.join(', ')}]`)
     }
   })()
 }
