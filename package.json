@@ -1,0 +1,14 @@
+{
+  "name": "devsecops-coding-test-bep",
+  "license": "UNLICENSED",
+  "version": "0.0.1",
+  "description": "DevSecOps challenge for Aetna",
+  "author": "Brian E. Peterson <bepetersondev@gmail.com>",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^25.4.0"
+  },
+  "dependencies": {}
+}
