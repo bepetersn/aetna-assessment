@@ -13,8 +13,10 @@
 
 ### Tests
 
-    There are a few test cases in `tests/` which verify the integrity 
-    of the `mergeSortedArrays` function itself.
+There are a few test cases in `tests/` which verify the integrity 
+of the `mergeSortedArrays` function itself.
+
+    yarn test
 
 ### Notes
 
