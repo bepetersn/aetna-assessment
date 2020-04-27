@@ -7,7 +7,7 @@
 
 ### Building & running with docker
 
-    docker build . -t devsecops-bep:1.0.0
+    docker build . -t aetna-devsecops-bep:1.0.0
     docker run aetna-devsecops-bep:1.0.0 [1, 2, 5, 110] [-1e+21, -1, 1]  
     # another, also valid, function call
 
