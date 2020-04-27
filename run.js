@@ -58,7 +58,8 @@ if (require.main === module) {
   let argString = rawArgs.join(' ')
   let arrays = parseArrays(argString)
   if(!arrays) {
-    console.log("Please provide two well-formatted arrays of numbers")
+    console.log("Please provide two well-formatted arrays " +
+                "of numbers, separated by a space")
     process.exit(1)
   } else {
     let mergedArray = mergeSortedArrays(...arrays)
