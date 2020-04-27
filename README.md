@@ -18,15 +18,15 @@
 
 ### Notes
 
-    `run.js` contains several functions which relate to parsing its
-    received arguments into arrays. I felt implementing this functionality
-    was merited in part because the specification requested that this program 
-    accept a non-quoted format of arrays (which bash does not). 
+`run.js` contains several functions which relate to parsing its
+received arguments into arrays. I felt implementing this functionality
+was merited in part because the specification requested that this program 
+accept a non-quoted format of arrays (which bash does not). 
     
-    Additionally, there is validation logic for the array format itself in 
-    `run.js`. Validating the array contents seemed like a smart thing to do 
-    to mitigate uncertainty in terms of the program's runtime behavior.
+Additionally, there is validation logic for the array format itself in 
+`run.js`. Validating the array contents seemed like a smart thing to do 
+to mitigate uncertainty in terms of the program's runtime behavior.
 
-    Hopefully, this pre-processing doesn't contradict the exercise requirements where 
-    you said that "the function [itself] should be invoked from command line".
+Hopefully, this pre-processing doesn't contradict the exercise requirements where 
+you said that "the function [itself] should be invoked from command line".
 
